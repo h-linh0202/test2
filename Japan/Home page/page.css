@@ -1,0 +1,657 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Dongle', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+
+.header{
+    height: 90px;
+    width: 1920px;
+    background-color: #303030;
+    display: flex;
+}
+
+.header__group{
+    height: 100%;
+    width: 25%;
+    margin: auto;
+}
+.header__beetwen{
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+
+.header__logo-group{
+    display: flex;
+    height: 100%;
+    width: 100px;
+    margin: auto;
+    padding-right: 150px;
+}
+.header__logo-group-img{
+    height: 46.81px;
+    width: 46.32px;
+    margin: auto;
+   
+}
+
+
+.header__logo-group-text{
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+}
+.header__logo-group-text p{
+    color: #FFFFFF;
+}
+
+.header__beetwen-group{
+    height: 38px;
+    width: 564px;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+.header__beetwen-group div{
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+.header__beetwen-group div::before{
+    height: 4px;
+    width: 0px;
+    background-color: #DC2E2E;
+    position: absolute;
+    content: "";
+    top:30px;
+    transition: all 0.3s ease-in;
+}
+.header__beetwen-group div:hover::before{
+    width: 100%;
+
+}
+.header__beetwen-group-item{
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+.header__login{
+    display: flex;
+}
+.header__login-group{
+    height: 40px;
+    width: 216px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+}
+.header__login-group-sign{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid #F1F1F1;
+    cursor: pointer;
+
+}
+.header__login-group-login{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    background: #DC2E2E;
+    line-height: 40px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.container__top{
+    height: 988px;
+    width: 1920px;
+    background-image: url(../img/ab1.png);
+    background-size: 2000px;
+  
+}
+.container__top-text{
+    height: 260px;
+    width: 483px;
+    position: relative;
+    top:260px;
+    left: 220px;
+}
+.container__top-text p{
+    height: 30px;
+    width: 120px;
+    font-size: 20px;
+    color: #DC2E2E;
+}
+.container__top-text-group{
+    height: 156px;
+    width: 399px;
+    font-size: 60px;
+    text-transform: capitalize;
+    line-height: 70px;
+    margin-bottom: 10px;
+    color: #FFFFFF
+}
+.container__top-text-end{
+    height: 54px;
+    width: 483px;
+    line-height: 27px;
+    font-size: 18px;
+    color:#F3F4F6;
+}
+
+.container__top-search{
+    height: 58px;
+    width: 483px;
+    background: #111111;
+    position: relative;
+    top:280px;
+    left: 220px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px
+}
+.container__top-search input{
+    width: 370px;
+    margin: auto;
+    height: 35px;
+    padding: 0 10px;
+    outline: none;
+    background:none;
+    border: none;
+    color: #C4C4C4;
+    font-size: 16px;
+}
+.container__top-search-img{
+    height: 42px;
+    width: 42px;
+    background-image: url(../img/Group\1989.png);
+    margin: auto;
+    cursor: pointer;
+}
+
+
+.container__tops{
+    height: 3570px;
+    width: 1920px;
+    background:#303030;
+    position: relative;
+}
+.container__tops::before{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/image\4.png);
+    position: absolute;
+    content: "";
+}
+
+
+.container__tops-h2{
+    height: 86px;
+    width: 472px;
+    margin: auto;
+    padding-top: 102px;
+}
+.container__tops-h2 h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+}
+.container__tops-h2 p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #F3F4F6;
+}
+
+
+.container__tops-group{
+    height: 776px;
+    width: 1630px;
+    /* background:springgreen; */
+    margin: auto;
+    margin-top: 50px;
+}
+
+.container__tops-group-list{
+    height: 363px;
+    width: 100%;
+    display: flex;
+}
+.container__tops-group-list-item{
+    height: 363px;
+    width: 370px;
+
+    margin: auto;
+}
+.container__tops-group-list div:nth-last-child(1){
+   margin-right: 0px;
+}
+.container__tops-group-list div:nth-last-child(4){
+   margin-left: 0px;
+}
+
+.container__tops-group-list-item-img{
+    height: 277px;
+    width: 370px;
+    border-radius: 8px;
+    background-image: url(../img/sushi.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container__tops-group-list-item-text{
+    width: 370px;
+    height: 70px;
+
+}
+.container__tops-group-list-item-text-name{
+    height: 36px;
+    text-align: left;
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.container__tops-group-list-item-text-name-group{
+    height: 26px;
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 9px;
+
+}
+.container__tops-group-list-item-text-name-group-two{
+    width: 28%;
+    height: 24px;
+    line-height: 24px;
+    display: flex;
+    font-weight: 600;
+    color:#F3F4F6;
+}
+
+.container__tops-group-list-item-text-name-group-two-item{
+    margin: auto;
+    color:#F3F4F6;;
+
+}
+
+.container__tops-group-list-item-text-name-group-two div:nth-last-child(1){
+    color: #DC2E2E;
+ 
+}
+
+.container__tops-group-list{
+    margin-top: 50px;
+}
+
+.container__tops-group-list-item-img2{
+    background-image: url(../img/sushi2.png);
+}
+.container__tops-group-list-item-img3{
+    background-image: url(../img/sushi3.png);
+}
+.container__tops-group-list-item-img4{
+    background-image: url(../img/sushi4.png);
+}
+.container__tops-group-list-item-img5{
+    background-image: url(../img/sushi5.png);
+}
+.container__tops-group-list-item-img6{
+    background-image: url(../img/sushi6.png);
+}
+.container__tops-group-list-item-img7{
+    background-image: url(../img/sushi7.png);
+}
+.container__tops-group-list-item-img8{
+    background-image: url(../img/sushi8.png);
+}
+.container__tops-group-list-item-img9{
+    background-image: url(../img/sushi9.png);
+}
+.container__tops-group-list-item-img10{
+    background-image: url(../img/sushi10.png);
+}
+.container__tops-group-list-item-img11{
+    background-image: url(../img/sushi11.png);
+}
+.container__tops-group-list-item-img12{
+    background-image: url(../img/sushi12.png);
+}
+
+
+
+
+.container__tops-background{
+    height: 582px;
+    width: 1630px;
+    margin: auto;
+    background-image: url(../img/background.png);
+    margin-top: 100px;
+    position: relative;
+}
+
+
+.container__tops-group2{
+    height: 363px;
+}
+
+.container__tops-happy{
+    height: 367px;
+    width: calc(1920px - 290px);
+    /* background:springgreen; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.container__tops-happy-background{
+    height: 100%;
+    width: 790px;
+    /* background:skyblue; */
+}
+
+.container__tops-happy-background-top{
+    height: 280px;
+    width: 100%;
+    background:#0D0D0D;
+    border-radius: 8px;
+   
+}
+.container__tops-happy-background-top-margin{
+    margin-bottom: 24px;
+}
+.container__tops-happy-background-top-margin p{
+    color: #FFFFFF;;
+    margin:0 24px;
+    padding-top: 8px;
+
+}
+.container__tops-happy-background-top-margin i{
+    font-size: 16px;
+    padding-top: 8px;
+}
+.container__tops-happy-background-top-margin p:nth-last-child(1){
+    color: #FFFFFF;
+}
+.container__tops-happy-background-top-flex{
+    display: flex;
+    margin-left: 24px;
+}
+
+.container__tops-happy-background-top-flex-item{
+    height: 98px;
+    width: 98px;
+    background-image: url(../img/hoa.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 16px;
+    border-radius: 16px;
+}
+.container__tops-happy-background-top-flex .container__tops-happy-background-top-flex-item:nth-last-child(3){
+    margin-left: 0px;
+}
+
+
+
+.container__tops-happy-background-tops{
+    height: 60px;
+    width: 279px;
+    margin-top: 27px;
+    display: flex;
+}
+.container__tops-happy-background-tops-img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-image: url(../img/Ellipse\ 79.png);
+    background-size: cover;
+    background-position: center;
+}
+.container__tops-happy-background-tops-text{
+    margin-left: 16px;
+    color: #FFFFFF;
+
+}
+.container__tops-happy-background-tops-text p{
+    line-height: 200%;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.container__tops-happy-background-tops-text span:nth-last-child(1){
+    font-weight: 600; 
+    color: #DBDBDB;
+    font-size: 16px;
+}
+.container__tops-happy-background-tops-text span:nth-last-child(2){
+    color: #DBDBDB;
+    font-size: 16px;
+}
+
+.container__tops-search{
+    height: 448px;
+    width: 1630px;
+    background:#0D0D0D;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+
+}
+.container__tops-search-img{
+    height: 458px;
+    width: 415px;
+    background-image: url(../img/maki-sushi-isolated-white\ 1.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    left: 100px;
+}
+.container__tops-search-imgs1{
+    height: 96.39px;
+    width: 228.21px;
+    background-size: cover;
+    background-image: url(../img/decor_0\ 2.png);
+    position: relative;
+    left: -388px;
+    top:10px
+}
+.container__tops-search-group{
+    height: 188px;
+    width: 618px;
+    /* background:cornflowerblue; */
+    margin: auto;
+   position: relative;
+   left: 0px;
+}
+.container__tops-search-group h2{
+    font-size: 38px;
+    line-height: 45.6px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.container__tops-search-group-tops{
+    height: 110px;
+    width: 618px;
+    /* background:yellow; */
+    margin-top: 32px;
+}
+.container__tops-search-group-tops p{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 600;
+    color: #F1F1F1;
+    padding-bottom: 16px;
+}
+.container__tops-search-group-tops span{
+    color:#DC2E2E;
+}
+.container__tops-search-group-input{
+    height: 58px;
+    width: 618px;
+    background-color: #333333;
+    border-radius: 8px;
+    display: flex;
+}
+.container__tops-search-group-input button{
+    background-color: #DC2E2E;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    padding: 8px;
+    color: #FFFFFF;
+    margin-top: 9px;
+    border: none;
+    cursor: pointer;
+
+}
+.container__tops-search-group-input input{
+    padding: 0 10px;
+    outline: none;
+    border: none;
+    width: 484px;
+    background:none;
+    border: 8px;
+    color: #FFFFFF;
+    padding-left: 16px;
+}
+.container__tops-search-imgs2{
+    height: 183.78px;
+    width: 435.45px;
+    background-image: url(../img/decor_011.png);
+    position: relative;
+    left: -100px;
+   
+}
+
+
+
+
+
+
+
+.footer{
+    height: 353px;
+    width: 1920px;
+    background-color:#303030;
+    display: flex;
+}
+.footer__logo{
+    height: 165px;
+    width: 310px; 
+    margin: auto;
+}
+
+
+.header__logo-group-footer{
+    position: relative;
+    top:-50px;
+}
+.header__logo-group-text-footer{
+    font-size: 35px;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+.header__logo-group-img-footer{
+    height: 65.37px;
+    width: 54.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+}
+.header__logo-group-img-before{
+    height: 36,3px;
+    width:41.87px;
+    background-image: url(../img/Vector2.png);
+    position: relative;
+    z-index: 100;
+    left: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top:100px
+}
+.header__logo-group-img-before-footer{
+    height: 20px;
+    width: 20px;
+    top:29px;
+    left: 5px;
+}
+.header__logo-group-footer::before{
+    content: "One of the top";
+    position: absolute;
+    top:155px;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.header__logo-group-footer::after{
+    content: "Sushi E-Kitchen in Vietnamt";
+    position: absolute;
+    width: 300px;
+    top:190px;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.footer__group{
+    height: 233px;
+    width: 996px;
+    margin: auto;
+    display: flex;
+}
+
+.footer__group-item{
+    width: 250px;
+    
+}
+.footer__group-item h3{
+    text-align: left;
+    font-size: 24px;
+    font-weight:800;
+    color: #F3F4F6;
+    line-height: 80px;
+}
+.footer__group-item p{
+    text-align: left;
+    color: #F3F4F6;
+    font-size: 16px;
+    line-height: 190%;
+}
+
+.footer__group-item-end p{
+    display: flex;
+}
+
+.footer__group-item-end i{
+    padding-left: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.footer__group-item-end i:nth-last-child(3){
+    padding: 0;
+}
+.footer__group-item-long{
+    width: 310px;
+}
+.footer__group-item-end{
+    width: 190px;
+}
